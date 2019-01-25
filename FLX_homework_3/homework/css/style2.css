@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #efefef;
+  color: #757575; }
+
+header {
+  background-image: url("../img/header_background_v2.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-transform: uppercase;
+  color: #ff5722;
+  font-weight: bold; }
+  header a {
+    text-decoration: none;
+    display: inline-block;
+    color: #efefef; }
+  header section {
+    margin-top: 250px;
+    text-align: center; }
+  header h1 {
+    margin-bottom: 15px; }
+
+.btn-top {
+  background-color: #0401ac;
+  padding: 10px 65px; }
+
+.btn {
+  border: none;
+  padding: 11px 74px;
+  margin: 20px 7px 0 0;
+  text-transform: uppercase;
+  color: #efefef;
+  text-decoration: none;
+  background-color: #0401ac; }
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .top-wrapper a {
+    padding: 18px 118px;
+    color: #ff5722; }
+    .top-wrapper a:nth-child(2) {
+      border-left: 2px solid #cfd8dc;
+      border-right: 2px solid #cfd8dc; }
+
+.logo img {
+  width: 47%; }
+
+main {
+  margin: 10px 17%; }
+  main .toolbar {
+    text-align: right;
+    padding: 7px 10px; }
+  main input {
+    padding: 10px 15px;
+    border: 1px solid #cfd8dc;
+    background-color: #efefef; }
+
+.post-list {
+  margin-bottom: 60px; }
+  .post-list h1 {
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .post-list article {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px; }
+    .post-list article img {
+      height: 280px; }
+    .post-list article div {
+      text-align: right;
+      margin-left: 5px; }
+      .post-list article div .post {
+        text-align: left; }
+        .post-list article div .post .post-description {
+          text-align: left;
+          color: #bdbdbd;
+          border-bottom: 1px solid #cfd8dc;
+          padding-bottom: 10px; }
+    .post-list article h3 {
+      text-transform: uppercase;
+      color: #607d8b;
+      margin: 3px 0 0 0; }
+    .post-list article p {
+      margin: 0; }
+
+.about {
+  padding: 15px; }
+  .about h1 {
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0; }
+  .about p {
+    margin: 0 0 15px 0;
+    padding-bottom: 5px; }
+  .about img {
+    width: 100%; }
+
+.contact-form h1,
+.contact-form h4 {
+  text-transform: uppercase;
+  text-align: right; }
+.contact-form h1 {
+  margin: 44px 0 0 0; }
+.contact-form h4 {
+  margin: 0 0 15px 0; }
+
+footer {
+  padding: 15px; }
+
+form {
+  text-align: right; }
+  form .btn {
+    margin: 10px 10px 0 0;
+    padding: 12px 80px; }
+  form .data {
+    display: flex;
+    justify-content: space-between; }
+  form .input-data {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%; }
+    form .input-data input {
+      padding: 10px 15px;
+      border: 1px solid #cfd8dc;
+      height: 25px; }
+    form .input-data label {
+      color: #607d98; }
+      form .input-data label::after {
+        content: "*";
+        position: relative;
+        bottom: 5px; }
+  form .input-area {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    form .input-area textarea {
+      border: 1px solid #cfd8dc;
+      background-color: #efefef; }
+    form .input-area label {
+      color: #607d98; }
+
+/*# sourceMappingURL=style2.css.map */
