@@ -244,6 +244,11 @@ section .str {
     line-height: 175%;
 }
 
+.last-tweet {
+    color: #e8e8e8;
+    line-height: 150%;
+}
+
 footer {
     border-top: 1px solid #f0f0f0;
     color: #9e9e9e;
